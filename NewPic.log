@@ -2,15 +2,15 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
+	deleted:    1563354527050.png
+	deleted:    2r2x8rN5IO.gif
+	deleted:    7qNgdhF69G.gif
 	modified:   NewPic.log
-	modified:   upload.sh
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	chrome_LQMTyB6P7O.png
+	deleted:    chrome_LQMTyB6P7O.png
+	deleted:    chrome_e1yQ8KelnC.png
+	deleted:    chrome_fxBFKPitSg.png
 
 no changes added to commit (use "git add" and/or "git commit -a")
