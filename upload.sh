@@ -20,7 +20,7 @@ git push origin master
 echo "git push successful"
 
 
-baseURL=https://github.com/codegitz/upload/blob/master/
+baseURL=https://raw.githubusercontent.com/codegitz/upload/master/
 echo "图片URL为:${URL}"
 #输出图片URL
 LINE=" "
