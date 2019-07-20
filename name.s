@@ -1,1 +1,1 @@
-	deleted:    chrome_It5bf1jkrS.png
+	chrome_LQMTyB6P7O.png
