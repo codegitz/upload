@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+
+
+
 git status >NewPic.log
 grep -E "gif|png|jpg" NewPic.log >name.s
 
@@ -9,15 +13,15 @@ grep -E "gif|png|jpg" NewPic.log >name.s
 
 
 git add .
-echo -e "Enter your commit Message:"
+echo "===================Enter your commit Message:============="
 read commit
 
 echo "your commit is：${commit}"
-echo "git commiting..."
+echo "===================git commiting...======================="
 git commit -m"${commit}"
-echo "git pushing..."
+echo "===================git pushing...========================="
 git push origin master
-echo "git push successful"
+echo "===================git push successful===================="
 
 
 baseURL=https://raw.githubusercontent.com/codegitz/upload/master/
