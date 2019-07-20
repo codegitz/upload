@@ -25,7 +25,7 @@ echo "图片URL为:${URL}"
 #输出图片URL
 LINE=" "
 cat ./name.s | while read LINE; do
-    echo "picUrl: ${baseURL}+${LINE}"
+    echo "picUrl: ${baseURL}"+"${LINE}"
 done;
 echo "upload successful...."
 

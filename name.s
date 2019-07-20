@@ -1,2 +1,1 @@
-	chrome_e1yQ8KelnC.png
-	chrome_fxBFKPitSg.png
+	chrome_It5bf1jkrS.png
