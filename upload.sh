@@ -3,8 +3,8 @@ git add .
 echo -e "请输入你的commit:"
 read commit
 
-echo ${commit}
-git commit -m"commit"
+echo "你的commit是：${commit}"
+git commit -m"${commit}"
 #git push origin master
 
 URL=https://github.com/codegitz/upload
