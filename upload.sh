@@ -5,7 +5,7 @@
 
 
 git status >NewPic.log
-grep -E "gif|png|jpg" NewPic.log >>name.s
+grep -E "gif|png|jpg" NewPic.log >name.s >>upload_history.s
 
 #name_list=$(cat ./name.s)
 
