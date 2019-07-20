@@ -7,25 +7,27 @@ grep -E "gif|png|jpg" NewPic.log >name.s
 
 #cat ./name.s |awk  -F ' '  '{print $1}' 
 
-:<<EOF
-LINE=" "
-cat ./name.s | while read LINE; do
-    echo "son: ${LINE}"
-done;
-echo "father: ${LINE}"
-
-EOF
 
 git add .
-echo -e "请输入你的commit:"
+echo -e "Enter your commit Message:"
 read commit
 
-echo "你的commit是：${commit}"
+echo "your commit is：${commit}"
 echo "git commiting..."
 git commit -m"${commit}"
 echo "git pushing..."
 git push origin master
 echo "git push successful"
-URL=https://github.com/codegitz/upload
+
+
+baseURL=https://github.com/codegitz/upload/blob/master/
 echo "图片URL为:${URL}"
+#输出图片URL
+LINE=" "
+cat ./name.s | while read LINE; do
+    echo "picUrl: ${baseURL}+${LINE}"
+done;
+echo "upload successful...."
+
+
 
